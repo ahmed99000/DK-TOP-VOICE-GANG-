@@ -85,7 +85,7 @@ module.exports.run = async function ({ api, event, args, Users }) {
     if (match) {
       return api.sendMessage(match.reply, event.threadID, event.messageID);
     } else {
-      return api.sendMessage("🤖 আমি এটা শিখিনি!", event.threadID, event.messageID);
+      return api.sendMessage("🤖 আমি এটা শিখিনি!বস শান্ত কে বলোন ", event.threadID, event.messageID);
     }
 
   } catch (err) {
