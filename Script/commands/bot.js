@@ -1,10 +1,10 @@
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
-  name: "Obot",
+  name: "bot",
   version: "1.0.1",
   hasPermssion: 0,
   credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️",
-  description: "goibot",
+  description: "BOT",
   commandCategory: "Noprefix",
   usages: "noprefix",
   cooldowns: 5,
